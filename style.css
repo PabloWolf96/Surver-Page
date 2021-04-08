@@ -1,0 +1,44 @@
+html{
+    background:  url('https://miro.medium.com/max/11520/1*V0d01of7lK1QK-pHF_xA4w.jpeg') rgba(65, 105, 225, 0.5);
+   
+    background-size: cover;
+    background-blend-mode: multiply;
+    
+    
+}
+body{
+    color: white;
+    text-align: center;
+}
+h1{
+    font-size: 32px;
+}
+p{
+    font-size: 18px;
+}
+#container{
+    margin: 20px auto;
+    font-size: 18px;
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+    background: rgba(106, 90, 205, 0.9);
+    width: 800px;
+    
+}
+input[type=text], input[type=number], input[type=email], select, textarea{
+    width: 100%;
+    padding: 20px 20px;
+    
+    
+}
+input[type=submit]{
+    background-color: green;
+    width: 100%;
+    padding: 20px 20px;
+    color: white;
+    font-size: 18px;
+}
+input, textarea{
+    box-sizing: border-box;
+}

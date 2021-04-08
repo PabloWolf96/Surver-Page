@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<html lang="en">
+    <head>
+        <title>Survey Heaven</title>
+    </head>
+    <body>
+        
+        <header>
+            <h1 id="title">Survey Heaven</h1>
+        </header>
+            <p id="description">
+                The best survey website on earth
+            </p>
+            <div id="container">
+                <form id="survey-form">
+                    <label for="name" id="name-label">Name</label>
+                    <br>
+                    <input type="text" id="name" placeholder="Enter your name" required> 
+                    <br><br>
+                    <label for="age">Age</label>
+                    <br>
+                    <input type="number" id="age">
+                    <br><br>
+                    <label for="gender">Gender</label>
+                    <br>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <br><br>
+                    <label for="email" id="email-label">Email</label>
+                    <br>
+                    <input type="email"  id="email" placeholder="Enter your email" required>
+                    <br><br>
+                    <label for="number" id="number-label">Phone Number</label>
+                    <br>
+                    <input type="number"  id="number" min="1" max="1000000000000" placeholder="Enter your phone number" required>
+                    <br><br>
+                    <select name="role" id="dropdown" >
+                        <option value="select" selected disabled>Select current role</option>
+                        <option value="student">Student</option>
+                        <option value="full-time">Full time job</option>
+                        <option value="part-time">Part time job</option>
+                        <option value="unemployed">Unemployed</option>
+                        <option value="anonymous">I prefer not to say</option>
+                        <option value="other">Other</option>
+                        
+                    </select>
+                    <br><br>
+                    <h3>Programming Languages</h3>
+                    <input type="checkbox" name="proglang1" id="proglang1" value="java">
+                    <label for="proglang1">Java</label>
+                    <br>
+                    <input type="checkbox" name="proglang2" id="proglang2" value="python">
+                    <label for="proglang2">Python</label>
+                    <br>
+                    <input type="checkbox" name="proglang1" id="proglang3" value="c#">
+                    <label for="proglang3">C#</label>
+                    <br>
+                    <input type="checkbox" name="proglang4" id="proglang4" value="c">
+                    <label for="proglang4">C</label>
+                    <br>
+                    <input type="checkbox" name="proglang5" id="proglang5" value="javascript">
+                    <label for="proglang5">Javascript</label>
+                    <br>
+                    <input type="checkbox" name="proglang6" id="proglang6" value="c++">
+                    <label for="proglang6">C++</label>
+                    <br>
+                    <input type="checkbox" name="proglang7" id="proglang7" value="php">
+                    <label for="proglang7">PHP</label>
+                    <br>
+                    <input type="checkbox" name="proglang8" id="proglang8" value="golang">
+                    <label for="proglang8">Golang</label>
+                    <br><br>
+                    <label for="comment">Additional comments</label>
+                    <br>
+                    <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+                    <br>
+                    <input type="submit" id="submit" value="submit">
+
+                    
+                    
+
+
+                </form>
+            </div>
+        
+    </body>
+
+</html>
